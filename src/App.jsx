@@ -77,7 +77,7 @@ const App = () => {
     {
       name: "piano",
       image: "https://imgs.xkcd.com/comics/piano.png",  
-      attributes: ["loud", "heavy", "old"],
+      attributes: ["loud", "heavy", "brown"],
     },
   ]
 
