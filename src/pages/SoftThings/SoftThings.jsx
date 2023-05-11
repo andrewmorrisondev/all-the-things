@@ -5,6 +5,7 @@ const SoftThings = (props) => {
   return (
     <>
       <h1>Seiyoung's Things</h1>
+      <h2>They are surely soft!</h2>
       <Link to="/">Home</Link>
 
       {props.things.map((thing, idx) => 
