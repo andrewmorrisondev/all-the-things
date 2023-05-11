@@ -3,6 +3,7 @@ import ManliestThings from './pages/ManliestThings/ManliestThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SillyThings'
 import SoftThings from './pages/SoftThings/SoftThings'
+import LoudThings from './pages/LoudThings/LoudThings'
 import Landing from './pages/Landing/Landing'
 
 const App = () => {
@@ -71,6 +72,14 @@ const App = () => {
     },
   ]
 
+  const andysThings = [
+    {
+      name: "piano",
+      image: "https://imgs.xkcd.com/comics/piano.png",  
+      attributes: ["loud", "heavy", "old"],
+    },
+  ]
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
@@ -90,6 +99,10 @@ const App = () => {
       <Route 
         path="/the-soft-things"
         element={<SoftThings things={seiyoungsThings} />}
+      />
+      <Route 
+        path="/the-loud-things"
+        element={<LoudThings things={andysThings} />}
       />
     </Routes>
   )
