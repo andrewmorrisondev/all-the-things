@@ -69,7 +69,7 @@ const App = () => {
     {
       name: "yarn",
       image: "https://www.mryarn.com/images/yarn/handmaiden/mini%20maiden_arctic%20sunrise_large.jpg",  
-      attributes: ["soft", "pretty", "useful"],
+      attributes: ["soft", "pretty", "useful", "let's wreck havoc!"],
     },
   ]
 
