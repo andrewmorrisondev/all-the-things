@@ -13,5 +13,5 @@ const ThingCard = ({ thing }) => {
     </>
   );
 }
- 
+
 export default ThingCard;
