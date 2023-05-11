@@ -10,7 +10,7 @@ import Landing from './pages/Landing/Landing'
 const App = () => {
   const bensThings = [
     {
-      name: 'not-orange',
+      name: 'taco',
       image:
         'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
       attributes: [
@@ -77,7 +77,7 @@ const App = () => {
     {
       name: "piano",
       image: "https://imgs.xkcd.com/comics/piano.png",  
-      attributes: ["loud", "heavy", "old"],
+      attributes: ["loud", "heavy", "brown"],
     },
   ]
 
