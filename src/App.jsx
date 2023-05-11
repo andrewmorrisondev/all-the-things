@@ -85,7 +85,7 @@ const App = () => {
     {
       name: "cool",
       image: "https://imgs.xkcd.com/comics/cool_s.png",  
-      attributes: ["nice", "fun", "haha"],
+      attributes: ["nice", "fun", "lmao"],
     },
   ]
 
