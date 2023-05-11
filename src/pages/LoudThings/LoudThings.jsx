@@ -6,6 +6,7 @@ const LoudThings = (props) => {
     <>
       <h1>andy's Things</h1>
       <h2>test-test</h2>
+      <h3>test-aroo</h3>
       <Link to="/">Home</Link>
 
       {props.things.map((thing, idx) => 
